@@ -16,6 +16,9 @@
   },
   "author": "Skipper Lizbeth Thurman",
   "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
   "bugs": {
     "url": "https://github.com/lizbeth-thurm/lizbeth-thurman-portfolio/issues"
   },
