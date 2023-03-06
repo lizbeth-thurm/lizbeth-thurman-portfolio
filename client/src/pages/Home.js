@@ -8,6 +8,8 @@ import "../PSOne/PSOne.css";
 const Home = () => {
   return (
     <div>
+      <Header />
+      <Navigation />
       <h2>Skipper Lizbeth Thurman</h2>
       <h3>Full-Stack Web Development...and More!</h3>
       <div class="container">
@@ -17,15 +19,11 @@ const Home = () => {
           Skipper Lizbeth Thurman!
         </p>
       </div>
-
-      <label>
-  <input type="radio" name="test" value="small" checked>
-  <span class="option">Yes
-    <span class="click"></span>
-  </span>
-  </input>
-</label>
-      
+      <div class="progress">
+  <div class="bar" style={{width : "80%"}}></div>
+  <div class="subtitle">This is a progress Bar</div>
+</div>
+      <Footer />
     </div>
   );
 };
