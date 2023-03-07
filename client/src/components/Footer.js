@@ -3,10 +3,10 @@ import "../PSOne/PSOne.css";
 
 const Footer = () => {
   return (
-<div class="container dark">
-  <label class="title">Footer</label>
-  <p>Skipper Lizbeth Thurman</p>
-</div>
+    <div class="container light">
+      <label class="title">Footer</label>
+      <p>Skipper Lizbeth Thurman</p>
+    </div>
   );
 };
 

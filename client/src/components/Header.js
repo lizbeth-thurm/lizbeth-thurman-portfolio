@@ -3,7 +3,7 @@ import "../PSOne/PSOne.css";
 
 const Header = () => {
   return (
-    <div class="container light">
+    <div class="container dark">
       <label class="title">Header</label>
       <p>Skipper Lizbeth Thurman</p>
     </div>
