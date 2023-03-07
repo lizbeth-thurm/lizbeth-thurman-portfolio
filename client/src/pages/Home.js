@@ -19,22 +19,7 @@ const Home = () => {
           Skipper Lizbeth Thurman!
         </p>
       </div>
-
-<div class="field is-inline">
-  <label>With placeholder</label>
-  <input type="text" class="input" placeholder="Jill Valentine"></input>
-</div>
-
-<button type="button" class="btn">Normal</button>
-<button type="button" class="btn primary">Primary</button>
-<button type="button" class="btn success">Success</button>
-<button type="button" class="btn warning">Warning</button>
-<button type="button" class="btn error">Error</button>
-
-      <div class="progress">
-  <div class="bar" style={{width : "80%"}}></div>
-  <div class="subtitle">This is a progress Bar</div>
-</div>
+      <Project />
       <Footer />
     </div>
   );
