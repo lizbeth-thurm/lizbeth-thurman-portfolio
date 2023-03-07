@@ -1,5 +1,5 @@
 import React from "react";
-import "../PSOne/PSOne.css";
+import "../PSOne/PSone.css";
 
 const Header = () => {
   return (

@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 import Project from "../components/Project";
-import "../PSOne/PSOne.css";
+import "../PSOne/PSone.css";
 
 const Home = () => {
   return (
