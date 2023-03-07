@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/lizbeth-thurm/lizbeth-thurman-portfolio/issues"
   },
-  "homepage": "https://github.com/lizbeth-thurm/lizbeth-thurman-portfolio#readme"
+  "homepage": "https://github.com/lizbeth-thurm/lizbeth-thurman-portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
