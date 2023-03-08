@@ -5,7 +5,12 @@ const Navigation = () => {
   return (
     <div class="container">
       <label class="title">Navigation</label>
-      <p>Skipper Lizbeth Thurman</p>
+      <div style={{display: "flex", justifyContent: "center"}}>
+        <p>About Me</p>
+        <p>Projects</p>
+        <p>Contact</p>
+        <p>Resume</p>
+      </div>
     </div>
   );
 };
