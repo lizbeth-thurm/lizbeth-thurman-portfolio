@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Project from "../components/Project";
@@ -7,10 +8,10 @@ import profile_pic from "../../public/profile_pic.jpg";
 
 const Home = () => {
   return (
-    <div style={{display: "flex", flexDirection: "column"}}>
+    <div style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent:"flex-end"}}>
       <Header />
       <h2>Skipper Lizbeth Thurman</h2>
-      <img style={{borderStyle: "solid", borderWidth: "10"}} src={profile_pic} alt="Skipper Lizbeth Thurman" />
+      <img style={{borderStyle: "solid", borderWidth: "10", maxWidth:"500px"}} src={profile_pic} alt="Skipper Lizbeth Thurman" />
       <h3>Full-Stack Web Development...and More!</h3>
       <div class="container">
         <label class="title">Introduction</label>
