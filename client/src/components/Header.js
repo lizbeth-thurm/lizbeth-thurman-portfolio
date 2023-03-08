@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <div class="container dark">
+    <div class="container dark" id="about-me">
       <label class="title">Portfolio</label>
       <p>Skipper Lizbeth Thurman</p>
       <Navigation />

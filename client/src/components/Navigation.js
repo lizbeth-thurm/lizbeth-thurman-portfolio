@@ -3,9 +3,9 @@ import "../PSOne/PSone.css";
 
 const Navigation = () => {
   return (
-    <div class="container">
-      <label class="title">Navigation</label>
-      <div style={{display: "flex", justifyContent: "center"}}>
+    <div className="container">
+      <label className="title">Navigation</label>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <p>About Me</p>
         <p>Projects</p>
         <p>Contact</p>
