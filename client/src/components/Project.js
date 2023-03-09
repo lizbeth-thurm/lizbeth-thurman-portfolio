@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div class="container dark">
       <label class="title">Projects</label>
-      <p>Skipper Lizbeth Thurman</p>
+      <p>Check out some of the projects I have worked on below!</p>
     </div>
   );
 };

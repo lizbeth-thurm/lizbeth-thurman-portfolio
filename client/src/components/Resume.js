@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div class="container dark">
       <label class="title">Resume</label>
-      <p>Skipper Lizbeth Thurman</p>
+      <p>Clink the link below to download my resume!</p>
     </div>
   );
 };

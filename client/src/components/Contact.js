@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div class="container dark">
       <label class="title">Contact</label>
-      <p>Skipper Lizbeth Thurman</p>
+      <p>Please feel free to contact me and check out my social media using the contact info below!</p>
     </div>
   );
 };
