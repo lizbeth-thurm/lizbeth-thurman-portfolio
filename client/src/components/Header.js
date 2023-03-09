@@ -4,9 +4,9 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <div class="container dark" id="about-me">
-      <label class="title">Portfolio</label>
-      <p>Skipper Lizbeth Thurman</p>
+    <div>
+      <h3>Skipper Lizbeth Thurman</h3>
+      <h4>Full-Stack Web Development Portfolio</h4>
       <Navigation />
     </div>
   );

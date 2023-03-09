@@ -3,7 +3,6 @@ import { HashLink } from "react-router-hash-link";
 import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
 import Project from "../components/Project";
 import Resume from "../components/Resume";
 import "../PSOne/PSone.css";
@@ -13,37 +12,44 @@ const Home = () => {
   return (
     <div
       style={{
+        background: "linear-gradient(teal, purple)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "flex-end",
       }}
     >
-      <Header />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <p>
+          <HashLink smooth to="/lizbeth-thurman-portfolio/#about-me">
+            About Me
+          </HashLink>
+        </p>
+        <p>
+          <HashLink smooth to="/lizbeth-thurman-portfolio/#projects">
+            Projects
+          </HashLink>
+        </p>
+        <p>
+          <HashLink smooth to="/lizbeth-thurman-portfolio/#contact">
+            Contacts
+          </HashLink>
+        </p>
+        <p>
+          <HashLink smooth to="/lizbeth-thurman-portfolio/#resume">
+            Resume
+          </HashLink>
+        </p>
+      </div>
 
       <h2>Skipper Lizbeth Thurman</h2>
-      <p>
-        <HashLink smooth to="/lizbeth-thurman-portfolio/#about-me">
-          About Me
-        </HashLink>
-      </p>
-      <p>
-        <HashLink smooth to="/lizbeth-thurman-portfolio/#projects">
-          Projects
-        </HashLink>
-      </p>
-      <p>
-        <HashLink smooth to="/lizbeth-thurman-portfolio/#contact">
-          Contacts
-        </HashLink>
-      </p>
-      <p>
-        <HashLink smooth to="/lizbeth-thurman-portfolio/#Resume">
-          Resume
-        </HashLink>
-      </p>
+
       <img
-        style={{ borderStyle: "solid", borderWidth: "10", maxWidth: "300px" }}
+        style={{
+          borderStyle: "solid",
+          borderWidth: "10",
+          maxWidth: "300px",
+        }}
         src={profile_pic}
         alt="Skipper Lizbeth Thurman"
       />
@@ -55,11 +61,12 @@ const Home = () => {
           Skipper Lizbeth Thurman!
         </p>
       </div>
+
       <section id="about-me">
         <AboutMe />
       </section>
       <section id="projects">
-      <Project />
+        <Project />
       </section>
       <section id="contact">
         <Contact />
@@ -67,6 +74,7 @@ const Home = () => {
       <section id="resume">
         <Resume />
       </section>
+
       <Footer />
     </div>
   );

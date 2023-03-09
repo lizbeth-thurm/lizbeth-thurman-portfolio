@@ -3,10 +3,10 @@ import "../PSOne/PSone.css";
 
 const AboutMe = () => {
   return (
-      <div class="container dark">
-        <label class="title">About Me</label>
-        <p>Skipper Lizbeth Thurman</p>
-      </div>
+    <div class="container dark">
+      <label class="title">About Me</label>
+      <p>Skipper Lizbeth Thurman</p>
+    </div>
   );
 };
 
