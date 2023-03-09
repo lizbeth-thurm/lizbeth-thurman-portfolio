@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/lizbeth-thurman-portfolio/static/css/main.b8876be4.css",
+    "main.js": "/lizbeth-thurman-portfolio/static/js/main.35348f3c.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/lizbeth-thurman-portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/profile_pic.jpg": "/lizbeth-thurman-portfolio/static/media/profile_pic.e53564323e3ff946b682.jpg",
+    "static/media/RationalTWDisplay.ttf": "/lizbeth-thurman-portfolio/static/media/RationalTWDisplay.7ab247eaa795bc4ada71.ttf",
+    "static/media/RationalTWDisplay.woff": "/lizbeth-thurman-portfolio/static/media/RationalTWDisplay.fe8024704798796c561f.woff",
+    "static/media/RationalTWDisplay.woff2": "/lizbeth-thurman-portfolio/static/media/RationalTWDisplay.daf2ec707655b6b64cc9.woff2",
+    "static/media/RationalTWDisplay.eot": "/lizbeth-thurman-portfolio/static/media/RationalTWDisplay.3275edb35bcc8fe163e4.eot",
+    "index.html": "/lizbeth-thurman-portfolio/index.html",
+    "static/media/psone.svg": "/lizbeth-thurman-portfolio/static/media/psone.49c35778eee3a8e15b5e.svg",
+    "main.b8876be4.css.map": "/lizbeth-thurman-portfolio/static/css/main.b8876be4.css.map",
+    "main.35348f3c.js.map": "/lizbeth-thurman-portfolio/static/js/main.35348f3c.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/lizbeth-thurman-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8876be4.css",
+    "static/js/main.35348f3c.js"
+  ]
+}
