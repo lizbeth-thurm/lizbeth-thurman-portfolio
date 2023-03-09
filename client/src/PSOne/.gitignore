@@ -1,7 +1,0 @@
-.vscode
-.cache
-.DS_Store
-dist
-node_modules
-css
-storybook-static
