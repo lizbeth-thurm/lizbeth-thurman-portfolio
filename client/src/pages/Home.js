@@ -10,6 +10,7 @@ import profile_pic from "../media/profile_pic.jpg";
 import cinemate_screenshot from "../media/cinemate_screenshot.png";
 import bestiary_screenshot from "../media/bestiary_screenshot.png";
 import thurman_resume from "../media/Thurman-Resume-March-2023.pdf";
+import myhep_screenshot from "../media/myhep_screenshot.png";
 
 const Home = () => {
   return (
@@ -83,6 +84,23 @@ const Home = () => {
           flexDirection: "column",
         }}
       >
+        <Link to={"https://protected-woodland-70982.herokuapp.com/"}>
+          <img
+            style={{
+              borderStyle: "solid",
+              borderWidth: "10",
+              maxWidth: "200px",
+            }}
+            src={myhep_screenshot}
+            alt="myhep"
+          ></img>
+        </Link>
+        <Link to={"https://protected-woodland-70982.herokuapp.com/"}>
+          <p>myhep</p>
+        </Link>
+        <p>
+          An app for physical therapists to assign exercises to their patients
+        </p>
         <Link to={"https://lizbeth-thurm.github.io/cinemate/"}>
           <img
             style={{
