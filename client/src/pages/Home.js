@@ -156,12 +156,6 @@ const Home = () => {
           <p>GitHub</p>
         </Link>
       </div>
-      <section id="resume">
-        <Resume />
-      </section>
-      <a href={thurman_resume}>
-        <p>Resume</p>
-      </a>
     </div>
   );
 };
