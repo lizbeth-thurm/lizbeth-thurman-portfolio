@@ -9,8 +9,6 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Project from "./components/Project";
 
-
-
 // // new apollo client
 // const client = new ApolloClient({
 //   uri: "/graphql",

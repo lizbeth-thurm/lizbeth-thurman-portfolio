@@ -23,36 +23,36 @@ const Home = () => {
         justifyContent: "flex-end",
       }}
     >
+      <h2>Skipper Lizbeth Thurman</h2>
+
       <div style={{ display: "flex", justifyContent: "center" }}>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#about-me">
-            About Me
+            <button type="button" class="btn">
+              About Me
+            </button>
           </HashLink>
         </p>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#projects">
-            Projects
+            <button type="button" class="btn primary">
+              Projects
+            </button>
           </HashLink>
         </p>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#contact">
-            Contacts
-          </HashLink>
-        </p>
-        <p>
-          <HashLink smooth to="/lizbeth-thurman-portfolio/#resume">
-            Resume
+            <button type="button" class="btn success">
+              Contact
+            </button>
           </HashLink>
         </p>
       </div>
-
-      <h2>Skipper Lizbeth Thurman</h2>
-
       <img
         style={{
           borderStyle: "solid",
           borderWidth: "10",
-          maxWidth: "300px",
+          maxWidth: "200px",
         }}
         src={profile_pic}
         alt="Skipper Lizbeth Thurman"
