@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lizbeth-thurman-portfolio/static/css/main.b8876be4.css",
-    "main.js": "/lizbeth-thurman-portfolio/static/js/main.3d6a5444.js",
+    "main.js": "/lizbeth-thurman-portfolio/static/js/main.22cb33a0.js",
     "static/js/787.c4e7f8f9.chunk.js": "/lizbeth-thurman-portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/profile_pic.jpg": "/lizbeth-thurman-portfolio/static/media/profile_pic.e53564323e3ff946b682.jpg",
     "static/media/cinemate_screenshot.png": "/lizbeth-thurman-portfolio/static/media/cinemate_screenshot.f2cebf636de1f546443d.png",
@@ -15,11 +15,11 @@
     "index.html": "/lizbeth-thurman-portfolio/index.html",
     "static/media/psone.svg": "/lizbeth-thurman-portfolio/static/media/psone.49c35778eee3a8e15b5e.svg",
     "main.b8876be4.css.map": "/lizbeth-thurman-portfolio/static/css/main.b8876be4.css.map",
-    "main.3d6a5444.js.map": "/lizbeth-thurman-portfolio/static/js/main.3d6a5444.js.map",
+    "main.22cb33a0.js.map": "/lizbeth-thurman-portfolio/static/js/main.22cb33a0.js.map",
     "787.c4e7f8f9.chunk.js.map": "/lizbeth-thurman-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8876be4.css",
-    "static/js/main.3d6a5444.js"
+    "static/js/main.22cb33a0.js"
   ]
 }
