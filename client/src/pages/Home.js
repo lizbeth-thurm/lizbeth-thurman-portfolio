@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
 import Project from "../components/Project";
-import Resume from "../components/Resume";
 import "../PSOne/PSone.css";
 import profile_pic from "../media/profile_pic.jpg";
 import cinemate_screenshot from "../media/cinemate_screenshot.png";
 import bestiary_screenshot from "../media/bestiary_screenshot.png";
-import thurman_resume from "../media/Thurman-Resume-March-2023.pdf";
 import myhep_screenshot from "../media/myhep_screenshot.png";
 
 const Home = () => {
