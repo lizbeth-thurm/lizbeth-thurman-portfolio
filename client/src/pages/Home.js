@@ -24,30 +24,24 @@ const Home = () => {
       }}
     >
       <h2>Skipper Lizbeth Thurman</h2>
-
       <div style={{ display: "flex", justifyContent: "center" }}>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#about-me">
-            <button type="button" class="btn">
-              About Me
-            </button>
+            About Me
           </HashLink>
         </p>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#projects">
-            <button type="button" class="btn primary">
-              Projects
-            </button>
+            Projects
           </HashLink>
         </p>
         <p>
           <HashLink smooth to="/lizbeth-thurman-portfolio/#contact">
-            <button type="button" class="btn success">
-              Contact
-            </button>
+            Contacts
           </HashLink>
         </p>
       </div>
+
       <img
         style={{
           borderStyle: "solid",
